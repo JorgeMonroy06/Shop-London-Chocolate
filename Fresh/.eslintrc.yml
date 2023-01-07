@@ -5,6 +5,7 @@ extends: 'eslint:recommended'
 rules:
   indent:                       # This should match brackets.
     - error
+    
     - tab
   no-unused-vars:               # For defining p5 setup and draw etc.
     - off
