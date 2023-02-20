@@ -32,6 +32,36 @@ var lines = [{
 	}
 ];
 
+var linesTo = [{
+		name: "Chocolate Hurricane",
+		imageFile: "assets/bar1.png",
+		weight: 240,
+		price: 1.20,
+		quantity: 12
+	},
+	{
+		name: "Chewy Mallow Fudge",
+		imageFile: "assets/bar2.png",
+		weight: 240,
+		price: 0.90,
+		quantity: 23
+	},
+	{
+		name: "Hazelnut Dream",
+		imageFile: "assets/bar3.png",
+		weight: 240,
+		price: 1.60,
+		quantity: 18
+	},
+	{
+		name: "Peppermint Swirl",
+		imageFile: "assets/bar4.png",
+		weight: 240,
+		price: 1.50,
+		quantity: 6
+	}
+];
+
 function setup() {
 	createCanvas(800, 600);
 
